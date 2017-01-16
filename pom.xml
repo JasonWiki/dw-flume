@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.angejia.dw.flume</groupId>
-  <artifactId>dw_flume</artifactId>
+  <artifactId>dw-flume</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>dw_flume</name>
+  <name>dw-flume</name>
   <url>http://maven.apache.org</url>
 
   <properties>
