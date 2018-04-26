@@ -1,4 +1,4 @@
-package com.angejia.dw.flume.source.interceptors;
+package com.dw.flume.source.interceptors;
 
 import java.util.List;
 import java.util.Map;
