@@ -62,9 +62,8 @@ public class HTTPCustomHandler implements HTTPSourceHandler {
 
           // headers
           Map<String, String> headers = new HashMap<String, String>();
-          String time = String.valueOf( System.currentTimeMillis() );
           headers.put("type", "HTTPCustom");
-          headers.put("time", time);
+          headers.put("timestamp", String.valueOf( System.currentTimeMillis() ));
 
           byte[] bodyBytes = body.toString().getBytes(charset);
           // body
